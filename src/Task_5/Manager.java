@@ -10,12 +10,12 @@ public class Manager implements Employee {
     }
 
     @Override
-    public double calculateSalary() {
+    public double salary() {
         return monthlySalary;
     }
 
     @Override
-    public void displayInfo() {
+    public void info() {
         System.out.println(name);
         System.out.println(monthlySalary);
         System.out.println();

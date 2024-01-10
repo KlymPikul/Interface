@@ -8,7 +8,7 @@ public class Main {
         Programmer programmer = new Programmer("Klym", 30.0, 40);
         Manager manager = new Manager("Hayk", 7000.0);
 
-        programmer.displayInfo();
-        manager.displayInfo();
+        programmer.info();
+        manager.info();
     }
 }

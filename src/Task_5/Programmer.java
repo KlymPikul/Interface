@@ -12,16 +12,16 @@ public class Programmer implements Employee {
     }
 
     @Override
-    public double calculateSalary() {
+    public double salary() {
         return hourlyRate * hoursWorked;
     }
 
     @Override
-    public void displayInfo() {
+    public void info() {
         System.out.println(name);
         System.out.println(hourlyRate);
         System.out.println(hoursWorked);
-        System.out.println(calculateSalary());
+        System.out.println(salary());
         System.out.println();
     }
 }
